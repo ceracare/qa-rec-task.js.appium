@@ -31,3 +31,9 @@ Run appium doctor (npm install -g appium-doctor)
 1. Start appium server
 1. `mvn clean`
 1. `mvn test`
+
+### On Completion
+- Fork and push your changes, then notify the hiring manager   
+or
+- Clone then zip it up and email to hiring manager
+(please do not create a pull request or push to main)
