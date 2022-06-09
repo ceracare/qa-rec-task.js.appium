@@ -16,21 +16,18 @@ We are going to push changes to the search infrastructure, the functionality sho
 
 ## Setup
 - Java
-- Maven
-- Appium
+- NodeJS
+- Android Studio
 
 ### Appium
-appium version (`1.21.0`)
 java version (`1.8.0_291`)
-maven version (`3.8.1`)    
-Run appium doctor (npm install -g appium-doctor)
+node version (`14.18.1`)
 
 ### Run Tests
 1. `cd wiki`
+1. `npm i`
 1. Change DEVICE_NAME in test to be your device (`adb devices`)
-1. Start appium server
-1. `mvn clean`
-1. `mvn test`
+1. `npm test`
 
 ### On Completion
 - Fork and push your changes, then notify the hiring manager   
